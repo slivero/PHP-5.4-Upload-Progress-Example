@@ -6,4 +6,4 @@ A more detailed description can be found in my blog post about this example http
 
 ## Requirements
 
-This demo requires PHP 5.4 and has been tested using Ubuntu 11.04 using prebuild php packages available here: http://apt.damz.org/
+This demo requires PHP 5.4 and has been tested using Ubuntu 11.04 using prebuilt PHP 5.4 packages available here: http://apt.damz.org/
