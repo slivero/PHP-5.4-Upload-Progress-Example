@@ -45,7 +45,7 @@ session_start();
 
                         <h2>Upload</h2>
                         <p>Select one or two files to upload (Max total size 2MB)</p>
-                        <form action="/progress/upload.php" method="POST" enctype="multipart/form-data" id="upload">
+                        <form action="/upload.php" method="POST" enctype="multipart/form-data" id="upload">
                             <input type="hidden" name="<?php echo ini_get("session.upload_progress.name"); ?>" value="upload" />
 
                             <div class="clearfix">
@@ -105,7 +105,7 @@ session_start();
 		
                     //Poll the server for progress
                     interval_id = setInterval(function() {
-                        $.getJSON('/progress/progress.php', function(data){
+                        $.getJSON('/progress.php', function(data){
                             
                             //if there is some progress then update the status
                             if(data)
